@@ -8,3 +8,5 @@
 - The DC Motor is also capable of rotating in both clockwise and ant-clockwise directions. The direction of rotation can be manipulated using a simple switch provided in the proteus schematic. 
 - An LCD Interface has also been provided on the proteus schematic to monitor the current speed of the DC Motor. 
 - DC Motor finds vast applications in domains like manufacturing industry, for designing machines like cranes, elevators etc, which involve bi-directional motion.
+
+# Implementation at a glance
