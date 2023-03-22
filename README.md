@@ -17,5 +17,5 @@
 2.	Analog to Digital Conversion is performed at PORTA<1>, and the digital data is used to drive the motor.
 3.	PORTD pins are used to implement the LCD Interface. An LCD Interrupt is generated that allows us to perform LCD Visualisation.
 4.	PORTB<4> is used to generate the LED which indicates overflow of current speed beyond the maximum speed of the DC Motor.
-5.		PORTC<2>/CCP1 pin is used for Pulse Width Modulation. The oscilloscope will be used in the proteus to provide visualisation of the PWM.
+5.	PORTC<2>/CCP1 pin is used for Pulse Width Modulation. The oscilloscope will be used in the proteus to provide visualisation of the PWM.
 6.	PORTB<0>/INT pin is used to generate an interrupt that allows us to control the direction in which the DC Motor is rotating.
