@@ -47,19 +47,24 @@ A switch has been used to control whether the DC Motor rotates in the clockwise 
 # MPLAB X Source Files
 
 1. main.c
--It is responsible for providing initialisations and functions as driver of the program written and or calling the other functions created, also passes the arguments.
+
+It is responsible for providing initialisations and functions as driver of the program written and or calling the other functions created, also passes the arguments.
 
 The function ‘Write_LCD’ created is responsible for calling the LCD Routine
 
 2. PWM.c
--It is responsible for performing Pulse Width Modulation.
+
+It is responsible for performing Pulse Width Modulation.
 
 3. lcd.c
--It is responsible for the generating the LCD Display.
+
+It is responsible for the generating the LCD Display.
 
 4. delay.c
--It is responsible for generating the required delays.
+
+It is responsible for generating the required delays.
 
 5. ADC.c
--It is responsible for performing Analog-to-Digital Conversion.
+
+It is responsible for performing Analog-to-Digital Conversion.
 
