@@ -19,3 +19,7 @@
 4.	PORTB<4> is used to generate the LED which indicates overflow of current speed beyond the maximum speed of the DC Motor.
 5.	PORTC<2>/CCP1 pin is used for Pulse Width Modulation. The oscilloscope will be used in the proteus to provide visualisation of the PWM.
 6.	PORTB<0>/INT pin is used to generate an interrupt that allows us to control the direction in which the DC Motor is rotating.
+
+# LCD Display and LED Indicator
+
+An LCD Display is incorporated in the project to show the current speed of the DC Motor and the Maximum Speed that can be attained. As the speed of the motor is changed, it can be visualised through the LCD display available.
