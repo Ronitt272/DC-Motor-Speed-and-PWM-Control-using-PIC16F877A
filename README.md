@@ -46,51 +46,51 @@ A switch has been used to control whether the DC Motor rotates in the clockwise 
 
 # MPLAB X Source Files
 
-1. main.c
+# 1. main.c
 
 It is responsible for providing initialisations and functions as driver of the program written and or calling the other functions created, also passes the arguments.
 
 The function ‘Write_LCD’ created is responsible for calling the LCD Routine
 
-2. PWM.c
+# 2. PWM.c
 
 It is responsible for performing Pulse Width Modulation.
 
-3. lcd.c
+# 3. lcd.c
 
 It is responsible for the generating the LCD Display.
 
-4. delay.c
+# 4. delay.c
 
 It is responsible for generating the required delays.
 
-5. ADC.c
+# 5. ADC.c
 
 It is responsible for performing Analog-to-Digital Conversion.
 
 # Proteus Simulations
 
-- Overflow Case: Speed of Motor exceeds maximum speed → LED turns ‘ON’
+# Overflow Case: Speed of Motor exceeds maximum speed → LED turns ‘ON’
 
 ![image](https://user-images.githubusercontent.com/68660836/227021813-98c96319-cf63-4944-b3eb-a6c5ca3b3fe9.png)
 
 
-- SWITCH CLOSED: CLOCKWISE ROTATION
+# SWITCH CLOSED: CLOCKWISE ROTATION
 
 ![image](https://user-images.githubusercontent.com/68660836/227022100-03eed518-2fd8-4a73-accb-562781ba8efe.png)
 
 
-- SWITCH CLOSED: CLOCKWISE ROTATION (PWM VISUALIZATION)
+# SWITCH CLOSED: CLOCKWISE ROTATION (PWM VISUALIZATION)
 
 ![image](https://user-images.githubusercontent.com/68660836/227022336-bc76204b-e941-4d6d-9069-fe93af1fe278.png)
 
 
-- SWITCH OPEN: ANTI-CLOCKWISE ROTATION
+# SWITCH OPEN: ANTI-CLOCKWISE ROTATION
 
 ![image](https://user-images.githubusercontent.com/68660836/227022518-24a6b443-8569-41cc-b67c-6955150de1b3.png)
 
 
-- SWITCH OPEN: ANTI-CLOCKWISE ROTATION (PWM VISUALIZATION)
+# SWITCH OPEN: ANTI-CLOCKWISE ROTATION (PWM VISUALIZATION)
 
 ![image](https://user-images.githubusercontent.com/68660836/227022730-1adaff36-5249-4c42-9d04-6944b39d34d8.png)
 
